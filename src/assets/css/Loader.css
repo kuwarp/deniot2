@@ -1,0 +1,36 @@
+
+
+   .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .loader-logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .cube {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    transform: rotateX(45deg) rotateY(45deg);
+    animation: rotateCube 2s forwards;
+  }
+  
+  @keyframes rotateCube {
+    0% {
+      transform: scale(1) rotateX(45deg) rotateY(45deg);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(0.5) rotateX(0deg) rotateY(0deg);
+      opacity: 0;
+    }
+  }
+  

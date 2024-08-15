@@ -1,0 +1,67 @@
+.homepage-container {
+ 
+position: absolute;
+  overflow: hidden;
+  margin: 0 auto;
+  transition: all 0.5s ease-in-out;
+  top: 35%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+@media screen and (max-width:650px) {
+  .homepage-container{
+
+    top: 10%;
+
+  }
+
+  .extra{
+    height: 50vh;
+  }
+  
+}
+
+.homepage-content {
+  background-color: rgb(114, 113, 113);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+::-webkit-scrollbar{
+  visibility: hidden;
+  width: 0px;
+}
+
+.extra  {
+  margin: 0;
+  padding: 0;
+  height: 150vh; 
+  overflow-y: scroll;
+ 
+}
+
+
+.image-container {
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+}
+
+.text-overlay {
+  position: fixed;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  text-transform: capitalize;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+

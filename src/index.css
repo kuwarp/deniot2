@@ -1,0 +1,60 @@
+html{
+    cursor: none;
+    font-family: Zirkon Light;
+
+}
+cursor{
+    border-radius: 56%;
+    border-color: aqua;
+}
+@font-face {
+    font-family: 'ZirkonLight';
+    src: url('./assets/fonts/ZIRKON__.TTF') format('truetype');
+   font-style: italic;
+  }
+
+  
+.footer {
+    background-color: #808080;
+    padding: 40px 0;
+    position: relative;
+    color: white;
+  }
+  
+  .footer-image {
+    height: auto;
+
+  }
+  
+  .footer-text h1 {
+    font-family: Zirkon Light;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -88%);
+    font-size: 5.8rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  @media  (max-width:650px )  {
+   .footer-image , .footer-text{
+    visibility: hidden;
+   }
+    
+  }
+  
+  .footer-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-credits {
+    margin-top: 20px;
+  }
+  
