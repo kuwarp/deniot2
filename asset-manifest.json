@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/deniot2/static/css/main.2a31850b.css",
-    "main.js": "/deniot2/static/js/main.7c4ffc87.js",
+    "main.css": "/deniot2/static/css/main.78a9aa60.css",
+    "main.js": "/deniot2/static/js/main.8ebefa6e.js",
     "static/js/453.b7b08198.chunk.js": "/deniot2/static/js/453.b7b08198.chunk.js",
     "static/media/12c.webp": "/deniot2/static/media/12c.0c3c119e27eee012a895.webp",
     "static/media/1c.webp": "/deniot2/static/media/1c.5d8d5a87bb61f748cb0c.webp",
@@ -17,12 +17,12 @@
     "static/media/d-b.png": "/deniot2/static/media/d-b.10461ffb0d7b81f82fd4.png",
     "static/media/ZIRKON__.TTF": "/deniot2/static/media/ZIRKON__.6244410c64522e4773dc.TTF",
     "index.html": "/deniot2/index.html",
-    "main.2a31850b.css.map": "/deniot2/static/css/main.2a31850b.css.map",
-    "main.7c4ffc87.js.map": "/deniot2/static/js/main.7c4ffc87.js.map",
+    "main.78a9aa60.css.map": "/deniot2/static/css/main.78a9aa60.css.map",
+    "main.8ebefa6e.js.map": "/deniot2/static/js/main.8ebefa6e.js.map",
     "453.b7b08198.chunk.js.map": "/deniot2/static/js/453.b7b08198.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a31850b.css",
-    "static/js/main.7c4ffc87.js"
+    "static/css/main.78a9aa60.css",
+    "static/js/main.8ebefa6e.js"
   ]
 }
